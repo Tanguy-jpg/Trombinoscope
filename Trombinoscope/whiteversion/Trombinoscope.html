@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="eu">
+    <head>
+        <meta charset="utf-8">
+        <title>Trombinoscope</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id='affichageImage'></div>
+        <header>
+            <h1>Trombinoscope</h1>
+            <a class="sombre" href="../blackversion/Trombinoscope.html">version sombre</a>
+        </header>
+
+        <section class="core">
+
+            <!--Flèches droites et gauches-->
+            <div class="fgauche">
+                <img class="leftarrow" src="img/left.png">
+            </div>
+            <div class="fdroite">
+                <img class="rightarrow" src="img/right.png">
+            </div>
+            
+            <!-- container des images/photos-->
+            <a href="#" id="test" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar1.png"> <p class="textavatar">Avatar 1</p> </a>
+            <a href="#" id="left" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar2.png"> <p class="textavatar">Avatar 2</p> </a>
+            <a href="#" id="left" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar3.png"> <p class="textavatar">Avatar 3</p> </a>
+            <a href="#" id="left" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar4.png"> <p class="textavatar">Avatar 4</p> </a>
+            <br>
+            <br>
+            <a href="#" id="left" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar5.png"> <p class="textavatar">Avatar 5</p> </a>
+            <a href="#" id="left" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar6.png"> <p class="textavatar">Avatar 6</p> </a>
+            <a href="#" id="left" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar7.png"> <p class="textavatar">Avatar 7</p> </a>
+            <a href="#" id="left" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar8.png"> <p class="textavatar">Avatar 8</p> </a>
+            <!--
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+            <br>
+            <br>
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+            -->
+        </section>
+        <button class="reload" onClick="window.location.reload();">X</button>
+    </body>
+</html>
