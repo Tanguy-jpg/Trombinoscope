@@ -153,13 +153,13 @@ header{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(160, 159, 247); 
+    background: rgb(85, 230, 116); 
     border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #5c52dd; 
+    background: #2b7e36; 
   }
 
 .affichageImage{

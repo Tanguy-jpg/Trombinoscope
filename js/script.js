@@ -16,6 +16,10 @@ function afficherImage( id)
 					divImage.appendChild(node);
 				}
 
+/* donne la classe "caché" au container de l'image qui pop*/
+var element = document.getElementById("affichageImage");
+element.classList.add("affichageImage");
+
 /* constantes */
 const toggleBtn = document.getElementById("toggleBtn")
 const content = document.getElementById("affichageImage")
