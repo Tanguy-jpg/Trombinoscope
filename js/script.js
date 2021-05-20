@@ -16,46 +16,37 @@ function afficherImage( id)
 					divImage.appendChild(node);
 				}
 
-/*
-
-const toggleBtn = document.getElementById("toggleBtn")
-const content = document.getElementById("content")
-
-toggleBtn.addEventListener("click", function(){
-	content.classList.toggle("affichageImage")
-})
-
-*/
-
+/* constantes */
 const toggleBtn = document.getElementById("toggleBtn")
 const content = document.getElementById("affichageImage")
 
-const imageA = document.getElementById("imageA")
-const imageB = document.getElementById("imageB")
-const imageC = document.getElementById("imageC")
-const imageD = document.getElementById("imageD")
-const imageE = document.getElementById("imageE")
-const imageF = document.getElementById("imageF")
-const imageG = document.getElementById("imageG")
-const imageH = document.getElementById("imageH")
-const imageI = document.getElementById("imageI")
-const imageJ = document.getElementById("imageJ")
-const imageK = document.getElementById("imageK")
-const imageL = document.getElementById("imageL")
-const imageM = document.getElementById("imageM")
-const imageN = document.getElementById("imageN")
-const imageO = document.getElementById("imageO")
-const imageP = document.getElementById("imageP")
-const imageQ = document.getElementById("imageQ")
-const imageR = document.getElementById("imageR")
-const imageS = document.getElementById("imageS")
-const imageT = document.getElementById("imageT")
+const imageA = document.getElementById("image-a")
+const imageB = document.getElementById("image-b")
+const imageC = document.getElementById("image-c")
+const imageD = document.getElementById("image-d")
+const imageE = document.getElementById("image-e")
+const imageF = document.getElementById("image-f")
+const imageG = document.getElementById("image-g")
+const imageH = document.getElementById("image-h")
+const imageI = document.getElementById("image-i")
+const imageJ = document.getElementById("image-j")
+const imageK = document.getElementById("image-k")
+const imageL = document.getElementById("image-l")
+const imageM = document.getElementById("image-m")
+const imageN = document.getElementById("image-n")
+const imageO = document.getElementById("image-o")
+const imageP = document.getElementById("image-p")
+const imageQ = document.getElementById("image-q")
+const imageR = document.getElementById("image-r")
+const imageS = document.getElementById("image-s")
+const imageT = document.getElementById("image-t")
+
+
+/* execution de la fonction quand click*/
 
 toggleBtn.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })
-
-
 imageA.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })
@@ -101,23 +92,18 @@ imageN.addEventListener("click", function(){
 imageO.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })
-
 imageP.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })
-
 imageQ.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })
-
 imageR.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })
-
 imageS.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })
-
 imageT.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })

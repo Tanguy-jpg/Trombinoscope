@@ -7,12 +7,16 @@
         <link rel="stylesheet" href="css/styledark.css">
         <script src="js/script.js" defer></script>
     </head>
+    
     <body>
+
         <div id='affichageImage'></div>
+
         <header>
             <h1>Trombinoscope</h1>
             <a class="sombre" href="trombinoscope-light.html">Light mode</a>
         </header>
+
         <div class="arrowcontainer">
             <!--Flèches droites et gauches-->
             <div class="fgauche">
@@ -24,38 +28,37 @@
         </div>
 
         <div class="corecontainer">
-
             <section class="core">
                 <!-- container des images/photos -->
-                <a href="#" id="ancre"></a>
-                <a href="#" id="imageA" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar1.png"> <p class="textavatar">Jonathan</p> </a>
-                <a href="#" id="imageB" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar2.png"> <p class="textavatar">Dimitrix</p> </a>
-                <a href="#" id="imageC" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar3.png"> <p class="textavatar">Emma</p> </a>
-                <a href="#" id="imageD" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar4.png"> <p class="textavatar">Bianca</p> </a>
-                <a href="#" id="imageE" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar5.png"> <p class="textavatar">Logan</p> </a>
-                <a href="#" id="imageF" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar6.png"> <p class="textavatar">Abdiel</p> </a>
-                <a href="#" id="imageG" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar7.png"> <p class="textavatar">Luke</p> </a>
-                <a href="#" id="imageH" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar8.png"> <p class="textavatar">Souhir</p> </a>
-                <a href="#" id="imageI" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar9.png"> <p class="textavatar">Sam</p> </a>
-                <a href="#" id="imageJ" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar10.png"> <p class="textavatar">Mohamed</p> </a>
+                <a href="#" id="image-a" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar01.png"> <p class="textavatar">Jonathan</p> </a>
+                <a href="#" id="image-b" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar02.png"> <p class="textavatar">Dimitrix</p> </a>
+                <a href="#" id="image-c" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar03.png"> <p class="textavatar">Emma</p> </a>
+                <a href="#" id="image-d" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar04.png"> <p class="textavatar">Bianca</p> </a>
+                <a href="#" id="image-e" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar05.png"> <p class="textavatar">Logan</p> </a>
+                <a href="#" id="image-f" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar06.png"> <p class="textavatar">Abdiel</p> </a>
+                <a href="#" id="image-g" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar07.png"> <p class="textavatar">Luke</p> </a>
+                <a href="#" id="image-h" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar08.png"> <p class="textavatar">Souhir</p> </a>
+                <a href="#" id="image-i" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar09.png"> <p class="textavatar">Sam</p> </a>
+                <a href="#" id="image-j" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar10.png"> <p class="textavatar">Mohamed</p> </a>
                 <br>
                 <br>
                 <br>
-                <a href="#" id="imageK" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar11.png"> <p class="textavatar">Tanguy</p> </a>
-                <a href="#" id="imageL" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar12.png"> <p class="textavatar">Loic</p> </a>
-                <a href="#" id="imageM" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar13.png"> <p class="textavatar">André</p> </a>
-                <a href="#" id="imageN" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar14.png"> <p class="textavatar">Julien</p> </a>
-                <a href="#" id="imageO" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar15.png"> <p class="textavatar">Kevin</p> </a>
-                <a href="#" id="imageP" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar.png"> <p class="textavatar">Avatar 15</p> </a>
-                <a href="#" id="imageQ" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar.png"> <p class="textavatar">Avatar 16</p> </a>
-                <a href="#" id="imageR" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar.png"> <p class="textavatar">Avatar 17</p> </a>
-                <a href="#" id="ancre3"></a>
-                <a href="#" id="imageS" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar.png"> <p class="textavatar">Avatar 18</p> </a>
-                <a href="#" id="imageT" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar.png"> <p class="textavatar">Avatar 19</p> </a>
-                
+                <a href="#" id="image-k" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar11.png"> <p class="textavatar">Tanguy</p> </a>
+                <a href="#" id="image-l" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar12.png"> <p class="textavatar">Loic</p> </a>
+                <a href="#" id="image-m" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar13.png"> <p class="textavatar">André</p> </a>
+                <a href="#" id="image-n" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar14.png"> <p class="textavatar">Julien</p> </a>
+                <a href="#" id="image-o" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar15.png"> <p class="textavatar">Kevin</p> </a>
+                <a href="#" id="image-p" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar16.png"> <p class="textavatar">François</p> </a>
+                <a href="#" id="image-q" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar00.png"> <p class="textavatar">Avatar 16</p> </a>
+                <a href="#" id="image-r" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar00.png"> <p class="textavatar">Avatar 17</p> </a>
+                <a href="#" id="image-s" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar00.png"> <p class="textavatar">Avatar 18</p> </a>
+                <a href="#" id="image-t" class="container" onclick="afficherImage(this.id)"> <img class="avatar" src="img/avatar00.png"> <p class="textavatar">Avatar 19</p> </a>
             </section>
         </div>
+
         <button class="reload" id="toggleBtn">close</button>
-        <div id='affichageImage'><div class=info ></div></div>
+
+        <div id='affichageImage'> <div class=info > </div></div>
+
     </body>
 </html>
