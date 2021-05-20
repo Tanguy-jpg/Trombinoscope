@@ -11,7 +11,7 @@ function afficherImage( id)
 					node.id = id + "Image";
 					node.src = hrefImg;
 					node.alt = id;
-                    node.style = "width: 600px; min-width:470px; margin-left: -300px; height: 650px; position:absolute; bottom: 140px; left: 50%; z-index:1000;"
+                    node.style = "width: 600px; min-width:470px; margin-left: -300px; height: 650px; position:absolute; top: 150px; bottom: 140px; left: 50%; z-index:1000;"
 
 					divImage.appendChild(node);
 				}
@@ -44,6 +44,12 @@ const imageK = document.getElementById("imageK")
 const imageL = document.getElementById("imageL")
 const imageM = document.getElementById("imageM")
 const imageN = document.getElementById("imageN")
+const imageO = document.getElementById("imageO")
+const imageP = document.getElementById("imageP")
+const imageQ = document.getElementById("imageQ")
+const imageR = document.getElementById("imageR")
+const imageS = document.getElementById("imageS")
+const imageT = document.getElementById("imageT")
 
 toggleBtn.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
@@ -92,4 +98,28 @@ imageM.addEventListener("click", function(){
 imageN.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })
+imageO.addEventListener("click", function(){
+	content.classList.toggle("affichageImage")
+})
+
+imageP.addEventListener("click", function(){
+	content.classList.toggle("affichageImage")
+})
+
+imageQ.addEventListener("click", function(){
+	content.classList.toggle("affichageImage")
+})
+
+imageR.addEventListener("click", function(){
+	content.classList.toggle("affichageImage")
+})
+
+imageS.addEventListener("click", function(){
+	content.classList.toggle("affichageImage")
+})
+
+imageT.addEventListener("click", function(){
+	content.classList.toggle("affichageImage")
+})
+
 

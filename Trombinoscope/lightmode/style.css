@@ -103,7 +103,7 @@ header{
     height: 36%;
     width: 10%;
     position: relative;
-    top:30px;
+    top:10px;
     left:4%;
     display: inline-flex;
     margin-left: 80px;
@@ -178,8 +178,8 @@ header{
 
 
 .reload{
-    position: absolute;
-    bottom:90px;
+    position: fixed;
+    bottom:5%;
     left:45%;
     z-index: 99999999;
     width: 10%;
@@ -189,6 +189,7 @@ header{
     background-color: rgb(139, 139, 139);
     color: rgb(0, 0, 0);
     border-radius: 20px;
+    min-width: 100px;
 }
 
 .reloadA{
