@@ -24,6 +24,7 @@ body{
     border-radius: 10px;
     min-width: 4000px;
     overflow:hidden;
+    
 }
 .arrowcontainer{
     background-color: rgb(10, 10, 10);
@@ -180,8 +181,8 @@ header{
 
 
 .reload{
-    position: fixed;
-    bottom:5%;
+    position: relative;
+    top:60px;
     left:45%;
     min-width: 100px;
     z-index: 99999999;
@@ -194,15 +195,3 @@ header{
     border-radius: 20px;
 }
 
-.reloadA{
-    position: absolute;
-    bottom:1%;
-    right: 8%;
-    z-index: 99999999;
-    width: 17%;
-    height: 40px;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(139, 139, 139);
-    color: rgb(255, 0, 0);
-}

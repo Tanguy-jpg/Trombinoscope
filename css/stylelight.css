@@ -182,11 +182,11 @@ header{
     overflow: hidden;
 }
 
-
 .reload{
-    position: fixed;
-    bottom:5%;
+    position: relative;
+    top:60px;
     left:45%;
+    min-width: 100px;
     z-index: 99999999;
     width: 10%;
     height: 40px;
@@ -195,18 +195,4 @@ header{
     background-color: rgb(139, 139, 139);
     color: rgb(0, 0, 0);
     border-radius: 20px;
-    min-width: 100px;
-}
-
-.reloadA{
-    position: absolute;
-    bottom:1%;
-    right: 8%;
-    z-index: 99999999;
-    width: 17%;
-    height: 40px;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(139, 139, 139);
-    color: rgb(255, 0, 0);
 }
