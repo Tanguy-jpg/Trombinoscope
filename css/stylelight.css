@@ -99,6 +99,7 @@ header{
 }
 .container{
     /*background-color:grey;*/
+    transition: transform .2s;
     border-radius: 20px;
     height: 36%;
     width: 10%;
@@ -109,8 +110,13 @@ header{
     margin-left: 80px;
     margin-top:1%; 
     max-width: 250px;
-
 }
+.container:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
 
 .avatar{
     position:absolute;
