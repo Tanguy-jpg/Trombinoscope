@@ -16,13 +16,12 @@ body{
 }
 .core{
     background-color: rgb(10, 10, 10);
-    width: 200%;
-    height: 650px;
+    height: 630px;
     position: relative;
     top: 0px;
     left: 0%;
     border-radius: 10px;
-    min-width: 4000px;
+    width: 3650px;
     overflow:hidden;
     
 }
@@ -104,7 +103,7 @@ header{
     width: 10%;
     position: relative;
     top:10px;
-    left:4%;
+    left:3%;
     display: inline-flex;
     margin-left: 80px;
     margin-top:1%; 
