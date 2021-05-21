@@ -24,6 +24,8 @@ element.classList.add("affichageImage");
 const toggleBtn = document.getElementById("toggleBtn")
 const content = document.getElementById("affichageImage")
 
+const divImage = document.getElementById('affichageImage');
+
 const imageA = document.getElementById("image-a")
 const imageB = document.getElementById("image-b")
 const imageC = document.getElementById("image-c")
@@ -48,6 +50,9 @@ const imageT = document.getElementById("image-t")
 
 /* execution de la fonction quand click*/
 
+divImage.addEventListener("click", function(){
+	content.classList.toggle("affichageImage")
+})
 toggleBtn.addEventListener("click", function(){
 	content.classList.toggle("affichageImage")
 })
