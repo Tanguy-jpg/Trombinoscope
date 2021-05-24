@@ -1,11 +1,9 @@
 body{
-    background-color: rgb(0, 0, 0);
-    scroll-behavior: smooth;
+    background-image: url("../img/wallpaper.jpg");
     font-family: "Gill Sans", sans-serif;
 }
 
 .corecontainer{
-    background-color: rgb(10, 10, 10);
     width: 100%;
     height: 650px;
     position: relative;
@@ -16,7 +14,7 @@ body{
     overflow-y: hidden;
 }
 .core{
-    background-color: rgb(10, 10, 10);
+    background-color: rgba(10, 10, 10, 0.0);
     height: 630px;
     position: relative;
     top: 0px;
@@ -27,7 +25,7 @@ body{
     
 }
 .arrowcontainer{
-    background-color: rgb(10, 10, 10);
+    background-color: rgba(10, 10, 10, 0.8);
     width: 100%;
     height: 650px;
     position: absolute;
@@ -121,6 +119,7 @@ header{
     top:0;
     left: 0;
     width: 100%;
+    border-radius: 150px;
 }
 
 
@@ -195,8 +194,3 @@ header{
     border-radius: 20px;
 }
 */
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 3b0d99359132283e72dd8e3fd16fe3097ac2bab7

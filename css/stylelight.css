@@ -1,10 +1,11 @@
 body{
     background-color: rgb(199, 226, 214);
     scroll-behavior: smooth;
+    font-family: "Gill Sans", sans-serif;
 }
 
 .corecontainer{
-    background-color: rgb(200, 220, 184);
+    background-color: rgba(200, 220, 184, 0.0);
     width: 100%;
     height: 650px;
     position: relative;
@@ -15,7 +16,7 @@ body{
     overflow-y: hidden;
 }
 .core{
-    background-color: rgb(200, 220, 184);
+    background-color: rgba(200, 220, 184, 0.0);
     width: 200%;
     height: 630px;
     position: relative;
@@ -26,7 +27,7 @@ body{
     overflow:hidden;
 }
 .arrowcontainer{
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(200, 220, 184);
     width: 100%;
     height: 650px;
     position: absolute;
