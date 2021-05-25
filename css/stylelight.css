@@ -182,9 +182,8 @@ header{
     z-index: 8000;
     overflow: hidden;
 }
-
-/*
 .reload{
+    display:none;
     position: relative;
     top:60px;
     left:45%;
@@ -198,4 +197,3 @@ header{
     color: rgb(0, 0, 0);
     border-radius: 20px;
 }
-*/
