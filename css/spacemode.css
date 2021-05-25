@@ -178,6 +178,7 @@ header{
     overflow: hidden;
 }
 .reload{
+    display:none;
     position: relative;
     top:60px;
     left:45%;
